@@ -226,7 +226,7 @@ function play(guild, song) {
         .on('error', error => console.error(error));
     dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
  
-    serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
+    serverQueue.textChannel.send(`**🎶بدء تشغيل**:🎧**${song.title}**`);
 }
  
 const adminprefix = "$vip";
